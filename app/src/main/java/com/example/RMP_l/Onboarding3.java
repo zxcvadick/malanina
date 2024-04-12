@@ -15,7 +15,7 @@ public class Onboarding3 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_onboarding3);
+        setContentView(R.layout.onboarding3);
     }
     //Этот метод вызывается при нажатии на определенный элемент (View) на экране и запускает другое активити.
     public void  SignUp1(View v){
@@ -24,7 +24,7 @@ public class Onboarding3 extends AppCompatActivity {
     }
     //Этот метод вызывается при нажатии на определенный элемент (View) на экране и запускает другое активити.
     public void  SignIn1(View v){
-        Intent intent = new Intent(this, Log_in.class);
+        Intent intent = new Intent(this, Login.class);
         startActivity(intent);
     }
 }

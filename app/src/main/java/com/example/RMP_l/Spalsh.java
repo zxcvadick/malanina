@@ -16,7 +16,7 @@ public class Spalsh extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_splash);
+        setContentView(R.layout.splash);
 
         //Здесь создается новый объект Handler и вызывается метод postDelayed(), который запускает задачу через определенное время. В данном случае, через 3 секунды происходит переход на другую активити.
         new Handler().postDelayed(new Runnable() {

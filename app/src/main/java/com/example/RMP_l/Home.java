@@ -13,7 +13,7 @@ public class Home extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
+        setContentView(R.layout.home);
     }
     public void Profile(View v){
         Intent intent = new Intent(this, Profile.class);

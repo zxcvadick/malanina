@@ -48,16 +48,16 @@
             android:name="com.example.RMP_l.Home"
             android:exported="false" />
         <activity
-            android:name="com.example.RMP_l.New_Password"
+            android:name="com.example.RMP_l.NewPassword"
             android:exported="false" />
         <activity
-            android:name="com.example.RMP_l.OTP_Verification"
+            android:name="com.example.RMP_l.OTPVerification"
             android:exported="false" />
         <activity
             android:name="com.example.RMP_l.Forgot_password"
             android:exported="false" />
         <activity
-            android:name="com.example.RMP_l.Log_in"
+            android:name="com.example.RMP_l.Login"
             android:exported="false" />
         <activity
             android:name="com.example.RMP_l.SignUp"

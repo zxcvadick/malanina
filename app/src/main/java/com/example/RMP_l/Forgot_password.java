@@ -32,7 +32,7 @@ public class Forgot_password extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_forgot_password);
+        setContentView(R.layout.forgot_password);
 
         send = findViewById(R.id.button2);
 
@@ -68,13 +68,13 @@ public class Forgot_password extends AppCompatActivity {
         }
     }
     public void Sign_in(View v){
-        Intent intent = new Intent(this, Log_in.class);
+        Intent intent = new Intent(this, Login.class);
         startActivity(intent);
     }
 
     public void StendOTP1(View v){
         sendPasswordReset();
-        Intent intent = new Intent(this, OTP_Verification.class);
+        Intent intent = new Intent(this, OTPVerification.class);
         startActivity(intent);
     }
     public void sendPasswordReset() {

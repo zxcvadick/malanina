@@ -17,7 +17,7 @@ public class TransactionSuccessful extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_transaction_successful);
+        setContentView(R.layout.transaction_successful);
 
         ImageView anim = findViewById(R.id.anim);
 

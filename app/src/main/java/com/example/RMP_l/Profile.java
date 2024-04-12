@@ -13,7 +13,7 @@ public class Profile extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_profile);
+        setContentView(R.layout.profile);
     }
     public void Card(View v){
         Intent intent = new Intent(this, AddPaymentMethod.class);
@@ -40,7 +40,7 @@ public class Profile extends AppCompatActivity {
         startActivity(intent);
     }
     public void LogOut(View v){
-        Intent intent = new Intent(this, Log_in.class);
+        Intent intent = new Intent(this, Login.class);
         startActivity(intent);
     }
 }

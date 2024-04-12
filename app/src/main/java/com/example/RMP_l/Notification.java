@@ -13,7 +13,7 @@ public class Notification extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_notification);
+        setContentView(R.layout.notification);
     }
     public void Right(View v){
         Intent intent = new Intent(this, Profile.class);

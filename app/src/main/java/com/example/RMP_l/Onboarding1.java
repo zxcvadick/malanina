@@ -15,7 +15,7 @@ public class Onboarding1 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_onboarding1);
+        setContentView(R.layout.onboarding1);
     }
 
     //Этот метод вызывается при нажатии на определенный элемент (View) на экране и запускает другое активити.

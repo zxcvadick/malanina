@@ -14,7 +14,7 @@ public class SendAPackage2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_send_apackage2);
+        setContentView(R.layout.send_apackage2);
 
         TextView place = findViewById(R.id.textView41);
         TextView phon = findViewById(R.id.textView42);

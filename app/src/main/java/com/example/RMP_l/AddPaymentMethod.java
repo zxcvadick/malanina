@@ -18,7 +18,7 @@ public class AddPaymentMethod extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_add_payment_method);
+        setContentView(R.layout.add_payment_method);
 
         check1 = findViewById(R.id.radioButton);
         check2 = findViewById(R.id.radioButton2);

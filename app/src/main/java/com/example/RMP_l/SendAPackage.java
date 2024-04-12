@@ -17,7 +17,7 @@ public class SendAPackage extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_send_apackage);
+        setContentView(R.layout.send_apackage);
 
         LinearLayout shed = findViewById(R.id.shed);
         LinearLayout ins = findViewById(R.id.ins);

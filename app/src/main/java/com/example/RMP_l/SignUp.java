@@ -39,7 +39,7 @@ public class SignUp extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sign_up2);
+        setContentView(R.layout.sign_up2);
 
         login = findViewById(R.id.button);
         fioText = "";
@@ -169,7 +169,7 @@ public class SignUp extends AppCompatActivity {
         }
     }
     public void  Sign_in(View v){
-        Intent intent = new Intent(this, Log_in.class);
+        Intent intent = new Intent(this, Login.class);
         startActivity(intent);
     }
 

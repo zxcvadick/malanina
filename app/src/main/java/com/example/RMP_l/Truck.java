@@ -13,7 +13,7 @@ public class Truck extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_truck);
+        setContentView(R.layout.truck);
     }
     public void Profile(View v){
         Intent intent = new Intent(this, Profile.class);

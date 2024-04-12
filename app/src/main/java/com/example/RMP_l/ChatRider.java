@@ -11,6 +11,6 @@ public class ChatRider extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_chat_rider);
+        setContentView(R.layout.chat_rider);
     }
 }

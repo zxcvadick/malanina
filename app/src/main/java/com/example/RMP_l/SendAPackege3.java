@@ -11,6 +11,6 @@ public class SendAPackege3 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_send_apackege22);
+        setContentView(R.layout.send_apackege22);
     }
 }

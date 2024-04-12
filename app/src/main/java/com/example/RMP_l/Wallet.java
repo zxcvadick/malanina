@@ -13,7 +13,7 @@ public class Wallet extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_wallet);
+        setContentView(R.layout.wallet);
     }
     public void Profile(View v){
         Intent intent = new Intent(this, Profile.class);
